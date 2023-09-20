@@ -1,0 +1,44 @@
+@media (max-width: 768px) {
+  header nav {
+    display: none;
+  }
+  header.logo {
+    width: 80px;
+  }
+
+  #home h2 {
+    font-size: 24px;
+  }
+
+  #home h2 strong {
+    font-size: 32px;
+  }
+
+  #home .licat {
+    width: 600px;
+  }
+
+  #home {
+    display: flex;
+    flex-direction: colunm;
+    height: 100vh;
+    padding-top: 65px;
+  }
+
+  html {
+    font-size: 9px;
+  }
+
+  .imgwrap {
+    width: 80vw;
+    overflow-x: scroll;
+  }
+
+  #avtivity .imgwrap li img {
+    width: 200px;
+  }
+
+  #contact .btnwrap {
+    flex-direction: column;
+  }
+}

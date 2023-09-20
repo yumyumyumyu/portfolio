@@ -1,81 +1,108 @@
 <!DOCTYPE html>
 <html lang="ko">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>유미의 포트폴리오</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" herf="./style.media.css"
   </head>
   <body>
     <header>
       <h1>
         <a href="#"
           ><img
+            class="logo"
             src="./images/yum logo.jpeg"
             alt="주황색과 코랄색이 모여있는 원형로고"
         /></a>
       </h1>
       <nav>
         <ul>
-            <li<><a href="#">PR Experts</a></li>
-            <li<><a href="#">News producer</a></li>
-            <li<><a href="#">Researcher</a></li>
-            <li<><a href="#">Contact</a></li>
+          <li><a href="#PR Experts">PR Experts</a></li>
+          <li><a href="#News producer">News producer</a></li>
+          <li><a href="#Researcher">Researcher</a></li>
+          <li><a href="#Contact">Contact</a></li>
         </ul>
       </nav>
     </header>
 
     <main>
-        <section>
-            <h2>안녕하세요.<strong>홍보전문가 윰입니다.</strong></h2>
-            <img src="./images/news.jpeg">
-            <a href="#"><img src="#" alt="하단으로 이동"></a>
-        </section>
+      <section id="home">
+        <h2>
+          안녕하세요.<strong
+            ><br />홍보전문가<br />
+            윰입니다.</strong
+          >
+        </h2>
+        <img class="yum" src="./images/news.jpeg" />
+        <a href="#about">
+          <img src="./images/down.svg" alt="하단으로 이동"
+        /></a>
+      </section>
 
-        <section>
-            <h2><strong>PR Experts</strong></h2>
-            <p>홍보전문가로 SNS 운영, 광고 집행, 광고 제작, TV광고 송출, 현수막제작, 길거리 배너현수막, 오프라인 부스 운영 등을 합니다.</p>
+      <section id="about">
+        <h2 class="title">about</h2>
+        <h2><strong>PR Experts</strong></h2>
+        <p>
+          홍보전문가로 SNS 운영, 광고 집행, 광고 제작, TV광고 송출, 현수막제작,
+          길거리 배너현수막, 오프라인 부스 운영 등을 합니다.
+        </p>
+      </section>
 
-        </section>
+      <section id="activity">
+        <h2 class="title title-plus"></h2>
+        <ul class="textwrap">
+          <li>
+            <strong>카카오톡 채널 개설</strong>
+            <p>친구수 1,300명대 유지</p>
+          </li>
+          <li>
+            <strong>오프라인 홍보퀴즈 부스 운영</strong>
+            <p>퀴즈형식의 오프라인 홍보 3,000명 진행</p>
+          </li>
+        <ul>
 
-        <section>
-            <ul>
-                <li>
-                <strong>카카오톡 채널 개설</strong>
-                <p>친구수 1,300명대 유지</p>
-                </li>
-                <li>
-                    <strong>오프라인 홍보퀴즈 부스 운영</strong>
-                    <p>퀴즈형식의 오프라인 홍보 3,000명 진행</p>
-                    </li>
-            </ul>
-            <ul>
-                <li>
-                    <img src="./images/wedream.png" alt="위드림">
-                </li> 
-                <li>
-                    <img src="./images/workaction.png" alt="워케이션">
-                </li> 
-                <li>
-                    <img src="./images/scholarship.png" alt="장학금">
-                </li> 
-            </ul>
-        </section>
-        <section>
-           <h2>contact</h2>
-                <P>제 포트폴리오를 봐주셔서 감사합니다. 저와 함께 일하고 싶으시다면 연락부탁드립니다.</P>
-                <div>
-                    <img src="#" alt="메일전송하기">
-                    <a href="mailto:8371217@naver.com">8371217@naver.com</a>
-                </div>
-                <div>
-                    <img src="#" alt="전화하기">
-                    <a href="tel:010-0000-0000">010-0000-0000</a>
-                </div>
-        </section>
+
+          <ul class="imgwrap">
+          <li>
+            <img src="./images/wedream.png" alt="위드림" />
+          </li>
+          <li>
+            <img src="./images/workaction.png" alt="워케이션" />
+          </li>
+          <li>
+            <img src="./images/scholarship.png" alt="장학금" />
+          </li>
+        </ul>
+      </section>
+      <section>
+        <section id="contact">
+        <div class="contentwrap">
+        <h2>contact</h2>
+        <p>
+          제 포트폴리오를 봐주셔서 감사합니다. 저와 함께 일하고 싶으시다면
+          연락부탁드립니다.
+        </p>
+<div class="btnwrap">
+  <div>
+    <img src="./images/mail.svg">
+    <img src="#" alt="메일전송하기" />
+    <a href="mailto:8371217@naver.com">8371217@naver.com</a>
+  </div>
+  <div>
+    <img src="./images/mobile.svg">
+    <img src="#" alt="전화하기" />
+    <a href="tel:010-0000-0000">010-0000-0000</a>
+   </div>
+</div>
+        </div>
+      </section>
     </main>
-<br><br><br>
+    <br /><br /><br />
     <footer>
-        <small>Copyright 2023. YUM all rights are reserved.</small>
+      <small>Copyright 2023. YUM all rights are reserved.</small>
     </footer>
   </body>
 </html>
+<!--마크업 완성-->
